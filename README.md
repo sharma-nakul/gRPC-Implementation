@@ -29,7 +29,7 @@ Change from io.netty:netty-codec-http2:4.1.0.Beta5-SNAPSHOT to io.netty:netty-co
 ### Run the server ###
 ./gradlew :grpc-examples:helloWorldServer
 
-# Run the client in another terminal window and you will receive a message
+### Run the client in another terminal window and you will receive a message
 ./gradlew :grpc-examples:helloWorldClient
 
 This tutorial shows you how to define a service (CreatePollService) in proto file.
