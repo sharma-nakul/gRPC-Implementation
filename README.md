@@ -23,7 +23,7 @@ mvn install
 protoc --version # You will get this output => libprotoc 3.0.0
 git clone https://github.com/grpc/grpc-java
 cd grpc-java/
-# Change from io.netty:netty-codec-http2:4.1.0.Beta5-SNAPSHOT to io.netty:netty-codec-http2:4.1.0.Beta4 in build.gradle file
+Change from io.netty:netty-codec-http2:4.1.0.Beta5-SNAPSHOT to io.netty:netty-codec-http2:4.1.0.Beta4 in build.gradle file
 ./gradlew install
 
 ### Run the server ###
